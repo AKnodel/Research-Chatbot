@@ -1,6 +1,6 @@
 # Research ChatBot: News Research Tool 📈
 
-![Research ChatBot](Research_ChatBot.jpg)
+![Research ChatBot](./Research_Chatbot.jpg)
 
 This Research ChatBot is a web application that allows you to process news article URLs, split the text data, create embeddings, and answer questions about the content from those articles. It is designed using Python, Streamlit, and Langchain.
 
@@ -15,11 +15,11 @@ This Research ChatBot is a web application that allows you to process news artic
 
 1. Clone this repository.
 2. Install the required packages by running `pip install -r requirements.txt`.
-3. Create a `.env` file with your OpenAI API key (or other relevant environment variables).
+3. Create a `.env` file with your OpenAI API key.
 
 ## Usage
 
-1. Start the app by running `streamlit run your_script_name.py`.
+1. Start the app by running `streamlit run main.py`.
 2. Input the URLs of the news articles you want to analyze.
 3. Click the "Process URLs" button to begin the analysis.
 4. Enter your questions in the input box and receive answers with sources.
@@ -30,20 +30,6 @@ This Research ChatBot is a web application that allows you to process news artic
 - Streamlit
 - Langchain
 - Hugging Face Transformers (for alternative model usage)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Author
-
-[Your Name]
-
----
-
-For more details and support, please visit the [GitHub repository](https://github.com/yourusername/your-repo-name).
-
-![Langchain Logo](https://link-to-langchain-logo.png)
 
 ---
 
