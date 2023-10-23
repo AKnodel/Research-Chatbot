@@ -2,7 +2,7 @@ import os
 import streamlit as st
 import pickle
 import time
-from langchain import OpenAI
+from langchain.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQAWithSourcesChain
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.document_loaders import UnstructuredURLLoader
@@ -24,7 +24,7 @@ process_url_clicked = st.sidebar.button("Process URLs")
 file_path = "faiss_store_openai.pkl"
 
 main_placeholder = st.empty()
-llm = OpenAI(temperature=0.9, max_tokens=500)
+llm = ChatOpenAI(temperature=0.9, max_tokens=500)
 
 if process_url_clicked:
     # load data
