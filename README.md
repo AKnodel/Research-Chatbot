@@ -33,5 +33,5 @@ This Research ChatBot is a web application that allows you to process news artic
 
 ---
 
-This project is powered by Langchain and leverages natural language processing and machine learning techniques. To learn more about Langchain, visit the [Langchain website](https://langchain.io).
+This project is powered by Langchain and leverages natural language processing and machine learning techniques. To learn more about Langchain, visit the [Langchain website](https://langchain.com).
 
