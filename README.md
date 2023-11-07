@@ -2,7 +2,7 @@
 
 ![Research ChatBot](./Research_Chatbot.jpg)
 
-This Research ChatBot is a web application that allows you to process news article URLs, split the text data, create embeddings, and answer questions about the content from those articles. It is designed using Python, Streamlit, and Langchain.
+This Research ChatBot is an innovative web application designed to address two crucial challenges in the realm of AI-powered chat systems. Firstly, unlike traditional chat systems such as ChatGPT, this chatbot is engineered to work with updated and real-time data, ensuring the provision of the most current information. Secondly, it offers a solution to the word limit constraints that typically restrict the amount of data that can be processed in chat interfaces, making it a versatile tool for handling extensive text data. Developed using Python, Streamlit, and Langchain, this ChatBot empowers users to process news article URLs, perform text splitting, create embeddings, and seamlessly find answers to questions about the content within the articles.
 
 ## Features
 
